@@ -1,1 +1,148 @@
-<p>main-mid works!</p>
+<div class="container">
+
+<!--  Top content  -->
+    <div class="top">
+        <h2>We are availible for both on-site and online education:</h2>
+        <p class="text-secondary text-center">(Hoover on the photo to see our teachers)</p>
+        <div class="d-flex row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 p-5">
+            
+            <div class="d-flex p-1">
+                <div class="imgTop">
+                    
+                </div>
+                <div class="textTop">
+                    <h3>On-site</h3>
+                    <p class="hoover1">As the saying goes, “teamwork makes the dream work”. The positive teamwork spirit is palpable when everyone is together, working on a common goal. A competitive element can create a healthy and productive working environment.On-site employees can motivate one another, boosting team morale. Teammates are also helping.</p>
+                </div>
+            </div>
+            <div class="d-flex p-1">
+                <div class="imgBot">
+                    
+                </div>
+                <div class="textBot">
+                    <h3>Online</h3>
+                    <p>Online learning offers teachers an efficient way to deliver lessons to students. Online learning has a number of tools such as videos, PDFs, podcasts, and teachers can use all these tools as part of their lesson plans. By extending the lesson plan beyond traditional textbooks to include online resources, teachers are able to become more efficient.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+<!--  Top content  -->
+    
+<!-- Mid Content -->
+    <div class="mid">
+        <h2 class="p-4">Duration of our courses:</h2>
+        
+        <ng-template #elseBlock>
+            <p class="courseText">The CodeFactory Full-stack Web-development Course is very intensive, full-time study which prepares you for work as a web-developer in the real world.
+                Build a solid base of fundamental programming skills which will enable you to further upgrade your professional profile.
+                You will receive high-quality feedback by experienced programmers with many years of teaching behind their backs.
+                We will teach you hands-on programming, which you must apply in responsive, functional projects, directly applicable in the real world, resulting in a solid, real portfolio which will enable you to confidently apply for developer jobs.
+                You will learn to adopt the problem-solving mindset of a coder – not only learning how to use separate technologies, but also how to integrate them in practical, project-oriented applications in order to solve particular problems.
+                </p>
+            <button type="button" (click) = "showText()"  class="btn btn-secondary m-3">More details on our courses duration...</button>
+        </ng-template>
+        
+        
+        <div *ngIf="textShow; else elseBlock">
+            <ng-template #elseBack>
+                
+            </ng-template>
+            <div *ngIf="textShow; else elseBack">
+                <button type="button" class="btn btn-secondary" (click) = "closeText()">Close details</button>
+            </div>
+
+        <div id="divTop" class="d-flex justify-content-between p-4">
+            
+            <div id="div1" class="d-flex">
+                <div class="img1"></div>
+                <div class="p-3">
+                        <h3>HTML</h3>
+                        <p class="text-center">Duration: 2 days Language: English Location: CodeFactory, Kettenbrückengasse 23/2/12, 1050 Vienna or Online Times: 2 days 9:00-15:00 (1 hour lunch break)</p>
+                   
+                </div>
+            </div>
+
+            <div id="div2" class="d-flex">
+                <div class="img2"></div>
+                <div class="p-3">
+                        <h3>CSS</h3>
+                        <p class="text-center">Duration: 2 days Language: English Location: CodeFactory, Kettenbrückengasse 23/2/12, 1050 Vienna or Online</p>
+                  
+                </div>
+            </div>
+
+            <div id="div3" class="d-flex">
+                <div class="img3"></div>
+                <div class="p-3">
+                    <h3>JS </h3>
+                    <p class="text-center">Duration: 2 days Language: English Location: CodeFactory, Kettenbrückengasse 23/2/12, 1050 Vienna or Online Times: 2 days 9-15:00 </p> 
+                </div>
+            </div>
+
+        </div>
+        <div id="divBot" class="d-flex justify-content-between p-3">
+            
+                <div id="div4" class="d-flex">
+                    <div class="img4"></div>
+                    <div class="p-3">
+                        <h3>PYTHON </h3>
+                        <p class="text-center">Duration: 5 days Language: English Location: CodeFactory, Kettenbrückengasse 23/2/12, 1050 Vienna  Monday to Friday 9 a.m. to 4 p.m.</p>
+                    </div>
+                </div>
+        
+                <div id="div5" class="d-flex">
+                    <div class="img5"></div>
+                    <div class="p-3">
+                        <h3>TYPSCRIPT </h3>
+                        <p class="text-center">Duration: 3 days Language: English Location: CodeFactory, Kettenbrückengasse 23/2/12, 1050 Vienna or Online Times: 4 days 9-15:00 </p>
+                    </div>
+                </div>
+            
+                <div id="div6" class="d-flex">
+                    <div class="img6"></div>
+                    <div class="p-3">
+                        <h3>FRONTEND </h3>
+                        <p class="text-center">Duration: 8 weeks Language: Englisch Dates: 05.09.– 28.10.2022 , 16.01.– 09.03.2023 , 15.05.– 06.07.2023, 11.09.– 02.11.2023</p>
+                    </div>
+  
+                </div>
+            
+        </div>
+    </div>
+    </div>
+<!-- Mid Content -->
+
+<!-- Bot Content -->
+    <div class="bot">
+        <div class="darkDiv">
+            
+            
+        
+        <h2 class="botHeading">Our course technologies:</h2>
+        <div class="d-flex justify-content-between">
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/189/189561.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PCs</h5>
+              <p class="card-text">•Modern Tech •Latest Software •Newest Updates</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/3176/3176290.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Flip Charts</h5>
+              <p class="card-text">•Using Flipchart •Meetings •More Simplified</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://www.verywellfamily.com/thmb/csgK7tfuyokv9LKbYbchFAp2Cv8=/735x0/IlloDot_HealthyKids-tax1-5b952d150f66471ab1dd9c4e7b84e90b.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Activities</h5>
+              <p class="card-text">•No stress •Having fun •Clearing mind</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+<!-- Bot Content -->

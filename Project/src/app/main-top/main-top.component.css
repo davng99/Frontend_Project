@@ -1,0 +1,93 @@
+.size img {
+    width: 30rem;
+    height: 43rem;
+    padding-bottom: 10rem;
+}
+
+.size {
+    margin-top: 3rem;
+    margin-left: 25rem;
+    width: 50rem;
+    position: relative;
+}
+
+.carousel-caption {
+    color: black;
+    top: 32rem
+}
+
+.first {
+    bottom: 1rem
+}
+
+.second {
+    width: 70%;
+    margin-left: 8rem;
+    bottom: 0.07rem;
+}
+
+.third {
+    width: 150%;
+    margin-left: -12rem;
+    bottom: 0.1rem;
+}
+
+.fourth {
+    width: 60%;
+    margin-left: 9.5rem;
+    bottom: 2rem;
+}
+
+.fifth {
+    bottom: -1.5rem;
+}
+
+.sixth {
+    bottom: -2rem;
+}
+
+.bg {
+    background-color: white;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+body {
+    background-color: #eee;
+}
+
+iframe {
+    margin-right: 3.2rem;
+    margin-left: 3.7rem;
+}
+
+.card {
+    border: none;
+}
+
+.user-content p {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.ratings i {
+    color: blue;
+}
+
+.carousel-indicators .active {
+    background-color: blue;
+}
+
+.carousel-indicators {
+    background-color: whitesmoke;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    height: 1%;
+    padding-bottom: 20px;
+}
