@@ -5,10 +5,13 @@
 }
 
 .size {
+    margin: 0 auto;
     margin-top: 3rem;
-    margin-left: 25rem;
-    width: 50rem;
+    /* margin-left: 25rem; */
     position: relative;
+    min-width: 30rem;
+    max-width: 50rem;
+    /* position: relative; */
 }
 
 .carousel-caption {
@@ -63,8 +66,7 @@ body {
 }
 
 iframe {
-    margin-right: 3.2rem;
-    margin-left: 3.7rem;
+    margin-left: 1.7rem;
 }
 
 .card {
