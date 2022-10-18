@@ -1,1 +1,70 @@
-<p>main-bot works!</p>
+<div class="container">
+
+  <!-- Newsletter -->
+
+  <div class="news-heading">
+    <img
+      src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fi0.wp.com%2Fcdn.clickwallpapers.net%2Fimages%2Fclickwallpapers-binary-code-img4.jpg%3Fw%3D958%26ssl%3D1">
+    <h1 class="text-center">Newsletter</h1>
+    <p class="text-center">In this section, you'll find the latest company news, product launches, events, and other
+      updates.</p>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+    <div class="col mt-5 mb-5 news-card d-flex justify-content-center" *ngFor="let news of newsletters">
+      <div class="card border-0" style="width: 25rem;">
+        <img class="card-img-top img-news" src="{{news.img}}" alt="{{news.title}}">
+        <div class="card-body">
+          <h5 class="card-title"><b>{{news.title}}</b></h5>
+          <p class="card-text mt-4">{{news.description}}</p>
+          <div class="publisher"><i>Published by {{news.source}}</i></div>
+          <a href="{{news.link}}" class="btn btnNews mt-4">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Courses  -->
+
+  <div class="course-heading">
+    <img
+      src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fi0.wp.com%2Fcdn.clickwallpapers.net%2Fimages%2Fclickwallpapers-binary-code-img4.jpg%3Fw%3D958%26ssl%3D1">
+    <h1 class="text-center">Our Courses</h1>
+    <p class="text-center">For beginners and advanced users</p>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-4">
+    <div class="col d-flex justify-content-center" *ngFor="let course of courses">
+      <div class="card border-0 cardCourse mt-5" style="width: 18rem;">
+        <img src="{{course.img}}" class="card-img-top course-img" alt="{{course.name}}">
+        <div class="card-body text-center">
+          <p class="course-type">{{course.courseType}}</p>
+          <h4 class="card-title courseTitle">{{course.name}}</h4>
+          <p><b>Level:</b> {{course.level}}</p>
+          <h4 class="card-text price">{{ course.price | currency: "EUR" }}</h4>
+          <a href="{{course.applyLink}}" class="btn btnApply mt-2">Apply</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Map  -->
+
+  <div class="maps-container text-center">
+    <div class="maps-heading">
+      <img
+        src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fi0.wp.com%2Fcdn.clickwallpapers.net%2Fimages%2Fclickwallpapers-binary-code-img4.jpg%3Fw%3D958%26ssl%3D1">
+      <h1 class="text-center">How to find us</h1>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5319.147776754699!2d16.357906!3d48.195561!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07866f5ea789%3A0x5c320007be5849de!2sKettenbr%C3%BCckengasse%2023%2C%201050%20Wien!5e0!3m2!1sde!2sat!4v1666082938340!5m2!1sde!2sat"
+      height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <div class="maps-bottom">
+      <h4>Headquarters: Kettenbrückengasse 23/2/12, 1050 Vienna, Austria</h4>
+      <p>Directly with the subway U4 to the station Kettenbrückengasse – right next to the famous Viennese Naschmarkt!
+      </p>
+      <a href="https://codefactory.wien/en/contact-en/" class="btn btnMaps mt-2">Contact us</a>
+    </div>
+  </div>
+</div>
