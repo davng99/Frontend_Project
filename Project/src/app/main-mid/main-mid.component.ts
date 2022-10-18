@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-mid.component.css']
 })
 export class MainMidComponent implements OnInit {
+  textShow = false
+  showText(){
+    this.textShow = true;
+   }
 
+   closeText(){
+    this.textShow = false;
+   }
+
+   
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }
