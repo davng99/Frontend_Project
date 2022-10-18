@@ -1,0 +1,104 @@
+.icon-box a i{
+  margin: 10px;
+  font-size: 20px;
+}
+
+.news-card{
+  transition: ease-in-out 0.3s;
+}
+
+.news-card:hover{
+  transform: scale(1.03);
+}
+
+.img-news {
+  height: 200px;
+}
+
+.publisher{
+  font-size: 12px;
+  line-height: 1.2em;
+}
+
+.course-heading, .news-heading, .maps-heading{
+  position: relative;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-heading p, .course-heading p{
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+}
+
+.news-heading h1, .course-heading h1, .maps-heading h1{
+  position: absolute;
+  text-align: center;
+  top: 35px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.maps-heading{
+  margin-top: 50px;
+}
+
+.maps-heading h1{
+  top: 50px;
+}
+
+.news-heading img, .course-heading img, .maps-heading img{
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+.course-img{
+  margin: 0 auto;
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+}
+
+.cardCourse{
+  transition: ease-in-out 0.2s;
+}
+
+.cardCourse:hover{
+  transform: scale(1.03);
+}
+
+.course-type{
+  font-style: italic;
+}
+
+.btnApply, .btnNews, .btnMaps{
+  padding: 8px 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #04446C;
+  border: 1px solid #D6CBB2;
+  transition: ease-in-out 0.2s;
+}
+
+.btnApply:hover, .btnNews:hover, .btnMaps:hover{
+  background-color: #19D1F5;
+}
+
+.maps-container iframe{
+  width: 100%;
+}
+
+.maps-bottom{
+  padding: 50px 0;
+}
+
+.maps-bottom h4{
+  font-weight: bold;
+}
