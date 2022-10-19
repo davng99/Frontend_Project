@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+.home-headline, .home-text{
+  font-family: 'Iceland', cursive;
+}
+
+h1, h2, h3, h4, h5, p, a{
+  font-family: 'Share Tech Mono', monospace;
+}
+
