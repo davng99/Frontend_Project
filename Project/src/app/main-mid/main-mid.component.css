@@ -21,13 +21,12 @@
 
 .imgTop:hover {
     background-image: url(https://poetsandquants.com/wp-content/uploads/sites/5/2021/05/PoetsandQuants-2021-40-Under-40-Collage-1024x640.jpg);
-    width: 30%;
-    height: 50%;
-    position: absolute;
+    width: 70%;
+    height: 100%;
     border-radius: 0;
     transition: 2.3s;
-    left: 30%;
-    margin-left: 25%;
+    left: 0;
+    margin-left: 14%;
 }
 
 .imgTop:hover + .textTop {
@@ -59,9 +58,8 @@
 
 .imgBot:hover {
     background-image: url(https://poetsandquants.com/wp-content/uploads/sites/5/2022/05/40collage2-1024x626.jpg);
-    width: 30%;
-    height: 50%;
-    position: absolute;
+    width: 70%;
+    height: 100%;
     border-radius: 0;
     transition: 2.3s;
     left: 30%;
