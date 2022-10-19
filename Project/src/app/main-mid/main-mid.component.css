@@ -26,6 +26,8 @@
     position: absolute;
     border-radius: 0;
     transition: 2.3s;
+    left: 0;
+    margin-left: 10rem;
 }
 
 .imgTop:hover + .textTop {
@@ -62,6 +64,9 @@
     position: absolute;
     border-radius: 0;
     transition: 2.3s;
+    left: 30%;
+    margin-left: 18rem;
+    
 }
 
 
