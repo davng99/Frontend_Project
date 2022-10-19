@@ -17,11 +17,11 @@ export class MainBotComponent implements OnInit {
       link: "https://javascript.plainenglish.io/vscode-extensions-for-web-development-526ba635d643"
     },
     {
-      title: "8 Skills you must have as a Front-End Developer in 2022",
-      img: "https://miro.medium.com/max/720/1*R0QtqGJBr0_vJeO3F4Bx-w.png",
-      description: "A front-end developer focuses on the user environment and experience and makes all of that accessible and convenient for the users. Get acquainted with these skills every developer must have to stand out.",
-      source: "Harsh Kashiwal in Bootcamp, Aug 14th, 2022",
-      link: "https://bootcamp.uxdesign.cc/8-skills-you-must-have-as-a-front-end-developer-in-2022-6b851e05d990"
+      title: "10 Useful Tips For Frontend Developers",
+      img: "https://miro.medium.com/max/720/1*44bGTD-IOsSgRIsb2Ih6SQ.png",
+      description: "Here are 10 useful tips for Frontend Developers. Tip 1: Start with learning the basics · Tip 2: Learn about accessibility · Tip 3: Document your code",
+      source: "Nicky Christensen in JavaScript in Plain English, Feb 28th, 2022",
+      link: "https://javascript.plainenglish.io/10-tips-for-frontend-developers-9c0dfc705b88"
     },
     {
       title: "Your programming course now financeable via WAFF!",
