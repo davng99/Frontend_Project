@@ -3,7 +3,7 @@ Landing Page
 
 Technologies used:
 
-    HTML
-    CSS
-    Bootstrap
-    Angular
+- HTML
+- CSS
+- Bootstrap
+- Angular
